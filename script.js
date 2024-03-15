@@ -9,5 +9,6 @@ document.getElementById("submitGuess").onclick = function(){
     }
     else{
         alert("You did not guess correctly. " + guess + " GUESS ")
+        guess ++
     }
 }
